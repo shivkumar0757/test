@@ -1,0 +1,42 @@
+# FastAPI and web server
+fastapi>=0.95.0
+uvicorn>=0.21.1
+python-multipart>=0.0.6
+email-validator>=2.0.0
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+pydantic[email]>=1.10.7
+
+# Database clients
+motor>=3.1.2  # MongoDB async driver
+sqlalchemy>=2.0.9  # SQL ORM
+asyncpg>=0.27.0  # PostgreSQL async driver
+psycopg2-binary>=2.9.6  # PostgreSQL driver (binary)
+beanie>=1.19.0  # MongoDB ODM
+redis>=4.5.4  # Redis client
+pgvector>=0.1.6  # pgvector extension
+
+# AI/ML tools
+google-generativeai>=0.1.0  # Google Gemini API
+openai>=0.27.5  # OpenAI API
+langchain>=0.0.190  # LangChain for RAG
+sentence-transformers>=2.2.2  # Embeddings
+numpy>=1.24.2  # Numerical operations
+pandas>=2.0.0  # Data manipulation
+
+# Networking and HTTP
+httpx>=0.24.0  # HTTP client
+requests>=2.28.2  # HTTP requests
+python-dotenv>=1.0.0  # Environment variables
+
+# Testing
+pytest>=7.3.1
+pytest-asyncio>=0.21.0
+coverage>=7.2.3
+
+# Utilities
+pyyaml>=6.0  # YAML parsing
+python-dateutil>=2.8.2  # Date utilities
+tenacity>=8.2.2  # Retry logic
+jinja2>=3.1.2  # Templates
+python-slugify>=8.0.1  # Slugification 

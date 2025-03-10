@@ -1,0 +1,59 @@
+{
+  "name": "super-app",
+  "version": "0.1.0",
+  "description": "AI-Powered Productivity & Learning Toolbox",
+  "main": "src/api/server.js",
+  "scripts": {
+    "start": "node src/api/server.js",
+    "dev": "nodemon src/api/server.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "frontend": "cd src/frontend && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/SuperApp.git"
+  },
+  "keywords": [
+    "ai",
+    "productivity",
+    "learning",
+    "toolbox",
+    "job-preparation",
+    "interview-readiness",
+    "social-media",
+    "financial-analysis"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/SuperApp/issues"
+  },
+  "homepage": "https://github.com/yourusername/SuperApp#readme",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.4",
+    "helmet": "^7.1.0",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.3",
+    "redis": "^4.6.10",
+    "@google/generative-ai": "^0.1.0",
+    "langchain": "^0.0.169",
+    "openai": "^4.16.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  }
+} 
